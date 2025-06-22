@@ -1,0 +1,41 @@
+.weather-output {
+  font-size: 18px;
+  line-height: 1.6;
+  background: rgba(0, 123, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.mar {
+    margin-top: 19.8rem !important;
+}
+.marg {
+    margin-bottom: 19.8rem !important;
+}
+.quote-box {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 10px;
+  font-style: italic;
+  transition: background 0.3s;
+}
+
+[data-bs-theme="dark"] .quote-box {
+  background: #343a40;
+  color: #ddd;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  background-color: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .card:hover {
+  background-color: #1e1e1e;
+}
